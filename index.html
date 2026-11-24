@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Wake & Lake, a peaceful lakeside café in Dhaka, Bangladesh. Enjoy signature coffee, refreshing drinks and delicious desserts.">
+
+<meta name="keywords" content="Wake and Lake, cafe in Dhaka, coffee, desserts, lakeside cafe">
+    <title>Wake & Lake | A Lakeside Café in Dhaka</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<header>
+    <a href="#" class="logo">Wake <span>&</span> Lake.</a>
+
+    <button type="button" class="menu-toggle" id="menuToggle"
+        aria-label="Toggle navigation">
+    ☰
+</button>
+
+    <nav id="navMenu">
+    <a href="#home">Home</a>
+    <a href="#about">Our Story</a>
+    <a href="#menu">Menu</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#reservation">Reservation</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+    <a href="#menu" class="nav-button">Explore Menu</a>
+</header>
+
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">A LITTLE ESCAPE BY THE WATER</p>
+                <h1>Find your<br>moment of <em>calm.</em></h1>
+                <p class="description">
+                    Slow mornings, good coffee and beautiful
+                    views. Welcome to your little escape.
+                </p>
+                <a href="#about" class="main-button">
+                    Discover Our Café →
+                </a>
+            </div>
+
+            <div class="hero-bottom">
+                <span>COFFEE · NATURE · SLOW LIVING</span>
+                <span>MADE FOR SLOW MORNINGS ↓</span>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=900"
+                    alt="Cozy coffee shop"
+                >
+            </div>
+
+            <div class="about-content">
+                <p class="eyebrow">OUR LITTLE STORY</p>
+
+                <h2>More than just<br>a coffee stop.</h2>
+
+                <p>
+                    Tucked beside the still waters of a beautiful lake,
+                    Wake & Lake was imagined as a place to slow down,
+                    breathe deeply and enjoy life's little moments.
+                </p>
+
+                <p>
+                    From freshly brewed coffee to peaceful mornings,
+                    every little detail is made to bring you closer
+                    to nature.
+                </p>
+
+                <a href="#menu" class="about-button">
+                    A little more about us →
+                </a>
+            </div>
+        </section>
+
+
+<section class="menu" id="menu">
+
+    <div class="menu-heading">
+        <p class="eyebrow">A TASTE OF WAKE & LAKE</p>
+        <h2>Made with love,<br><em>served with calm.</em></h2>
+        <p>Little treats and lovely sips for your slow moments.</p>
+    </div>
+<div class="menu-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="coffee">Coffee</button>
+    <button class="filter-btn" data-filter="cold-drinks">Cold Drinks</button>
+    <button class="filter-btn" data-filter="desserts">Desserts</button>
+    <button class="filter-btn" data-filter="bakery">Bakery</button>
+</div>
+    <div class="menu-grid">
+
+        <div class="menu-card" data-category="coffee">
+            <div class="menu-info">
+
+    <img src="images/jonas-jacobsson-RFHFV7lVQBY-unsplash.jpg"
+         alt="Classic Cappuccino"
+         class="menu-image">
+
+    <h3>Classic Cappuccino</h3>
+
+    <p>Rich espresso blended with steamed milk and soft foam.</p>
+
+    <span>BDT 280</span>
+
+</div>
+        </div>
+
+        <div class="menu-card" data-category="coffee">
+            <div class="menu-info">
+                <img src="images/pexels-kelly-24039561.jpg"
+     alt="Caramel Latte"
+     class="menu-image">
+                <h3>Caramel Latte</h3>
+                <p>Smooth espresso with creamy milk and caramel sweetness.</p>
+                <span>BDT 320</span>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="cold-drinks">
+            <div class="menu-info">
+                <img src="images/keith-brian-de-leon-1EV6hDgDpFM-unsplash.jpg"
+     alt="Cold Coffee"
+     class="menu-image">
+     <h3>Cold Coffee</h3>
+                <p>Chilled coffee for a refreshing break.</p>
+                <span>BDT 300</span>
+            </div>
+        </div>
+
+         <div class="menu-card" data-category="cold-drinks">
+            <div class="menu-info">
+                <img src="images/francesca-hotchin-p5EiqkBYIEE-unsplash.jpg"
+     alt="Fresh Lemonade"
+     class="menu-image">
+                <h3>Fresh Lemonade</h3>
+                <p>A refreshing blend of lemon and sweetness.</p>
+                <span>BDT 180</span>
+            </div>
+        </div>
+
+         <div class="menu-card" data-category="cold-drinks">
+            <div class="menu-info">
+                <img src="images/pexels-shkrabaanthony-4753640.jpg"
+     alt="Strawberry Smoothie"
+     class="menu-image">
+                <h3>Strawberry Smoothie</h3>
+                <p>A creamy, fruity drink made with strawberries.</p>
+                <span>BDT 280</span>
+            </div>
+        </div>
+
+         <div class="menu-card" data-category="cold-drinks">
+            <div class="menu-info">
+                <img src="images/pexels-soc-nang-d-ng-2150345854-33573170.jpg"
+     alt="Iced Peach Tea"
+     class="menu-image">
+                <h3>Iced Peach Tea</h3>
+                <p>Cool tea with a delicate peach flavour.</p>
+                <span>BDT 220</span>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="desserts">
+            <div class="menu-info">
+                <img src="images/side-view-chocolate-brownie-cakes-plate-served-with-tea-marble-table.jpg"
+     alt="Chocolate Brownie"
+     class="menu-image">
+                <h3>Chocolate Brownie</h3>
+                <p>A rich chocolate treat for your sweet cravings.</p>
+                <span>BDT 250</span>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="desserts">
+            <div class="menu-info">
+                <img src="images/pexels-ron-lach-8440059.jpg"
+     alt="Blueberry Cheesecake"
+     class="menu-image">
+                <h3>Blueberry Cheesecake</h3>
+                <p>Creamy cheesecake topped with blueberries.</p>
+                <span>BDT 350</span>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="bakery">
+            <div class="menu-info">
+                <img src="images/pexels-perfect-lens-6537669.jpg"
+     alt="Butter Croissant"
+     class="menu-image">
+                <h3>Butter Croissant</h3>
+                <p>A flaky, buttery pastry baked to perfection.</p>
+                <span>BDT 200</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="gallery" id="gallery">
+
+    <div class="gallery-heading">
+        <p class="eyebrow">LITTLE MOMENTS, BEAUTIFUL MEMORIES</p>
+        <h2>A glimpse of <em>our world.</em></h2>
+    </div>
+
+    <div class="gallery-grid">
+
+        <!-- Coffee House -->
+        <img src="https://static.wixstatic.com/media/5e394a_affec49cacb04390bbc01f2a82d96ce9~mv2.webp/v1/fill/w_800,h_800,al_c,q_85/5e394a_affec49cacb04390bbc01f2a82d96ce9~mv2.webp"
+     alt="Cozy window-side cafe table and chairs">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800"
+             alt="Coffee house atmosphere">
+
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800"
+             alt="Freshly brewed coffee">
+
+        <!-- Lake View -->
+        <img src="https://ns.clubmed.com/FEAM/Marketing/Omnichannel/SEO/Destinations/Autriche/GettyImages-657925718.jpg"
+             alt="Beautiful lakeside cafe view">
+
+        <img src="https://prcdn.freetls.fastly.net/release_image/147563/10/147563-10-976f7cb60362d7703b663688bf7d311c-3900x2191.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950"
+             alt="Cafe overlooking a peaceful lake">
+
+        <img src="https://f1f431276dbb2a7a464f7a62484ac579.cdn.bubble.io/cdn-cgi/image/w%3D%2Ch%3D%2Cf%3Dauto%2Cdpr%3D2.5%2Cfit%3Dcontain/f1740055604376x136459308559366380/azerbaijan-ganja-travel-photo-20191119125102399-main-image.jpg"
+             alt="Outdoor lakeside coffee seating">
+
+    </div>
+
+</section>
+
+
+<section class="reviews" id="reviews">
+
+    <div class="reviews-heading">
+        <p class="eyebrow">KIND WORDS</p>
+        <h2>Little moments,<br><em>lovely memories.</em></h2>
+        
+    </div>
+
+    <div class="reviews-grid">
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"A peaceful place to enjoy coffee and take a break from a busy day.The food was awesome.Must visit!"</p>
+            <div class="review-author">
+    <span class="review-avatar">G</span>
+    <h3>Gunja Roy</h3>
+</div>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"Loved the cosy atmosphere and delicious desserts. A lovely little spot!"</p>
+            <div class="review-author">
+    <span class="review-avatar">A</span>
+    <h3>Ayesha Binte</h3>
+</div>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"The perfect place to slow down, relax and enjoy a refreshing drink."</p>
+            <div class="review-author">
+    <span class="review-avatar">S</span>
+    <h3>Samira Khan</h3>
+</div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Reservation Section -->
+<section class="reservation" id="reservation">
+
+    <div class="reservation-layout">
+
+        <!-- Lakeside Photo -->
+        <div class="reservation-photo">
+            <img
+                src="https://images.unsplash.com/photo-1647213053352-6bb81bcb068e?auto=format&fit=crop&fm=jpg&q=85&w=1400"
+                alt="A table and chairs on a deck overlooking the water">
+        </div>
+
+        <!-- Reservation Form -->
+        <div class="reservation-content">
+
+            <p class="reservation-subtitle">WAKE & LAKE</p>
+
+            <h2>Reserve Your Table</h2>
+
+            <p class="reservation-description">
+                A peaceful lakeside escape is waiting for you.
+                Reserve your favourite spot.
+            </p>
+
+            <form id="reservationForm">
+
+                <div class="reservation-field">
+                    <label for="customerName">Your Name</label>
+                    <input type="text" id="customerName"
+                           placeholder="Enter your name" required>
+                </div>
+
+                <div class="reservation-field">
+                    <label for="customerEmail">Email Address</label>
+                    <input type="email" id="customerEmail"
+                           placeholder="Enter your email" required>
+                </div>
+
+                <div class="reservation-field">
+                    <label for="reservationDate">Preferred Date</label>
+                    <input type="date" id="reservationDate" required>
+                </div>
+                <div class="reservation-field">
+    <label for="reservationTime">Preferred Time</label>
+    <select id="reservationTime" required>
+        <option value="">Select a time</option>
+        <option value="09:00 AM">09:00 AM</option>
+        <option value="10:00 AM">10:00 AM</option>
+        <option value="11:00 AM">11:00 AM</option>
+        <option value="12:00 PM">12:00 PM</option>
+        <option value="01:00 PM">01:00 PM</option>
+        <option value="02:00 PM">02:00 PM</option>
+        <option value="03:00 PM">03:00 PM</option>
+        <option value="04:00 PM">04:00 PM</option>
+        <option value="05:00 PM">05:00 PM</option>
+        <option value="06:00 PM">06:00 PM</option>
+        <option value="07:00 PM">07:00 PM</option>
+    </select>
+</div>
+
+                <div class="reservation-field">
+                    <label for="guestCount">Number of Guests</label>
+                    <select id="guestCount" required>
+                        <option value="">Select guests</option>
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests</option>
+                        <option value="6">6 Guests</option>
+                    </select>
+                </div>
+
+                <button type="submit">Reserve Now</button>
+
+                <p id="reservationMessage"></p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="contact-content">
+        <h2>Let's make time for something beautiful.</h2>
+        <p>We'd love to welcome you to Wake & Lake!</p>
+
+        <div class="contact-details">
+            <p><strong>Address:</strong> Lakeside Road, Dhaka, Bangladesh</p>
+            <p><strong>Phone:</strong> +880 1700-123456</p>
+            <p><strong>Email:</strong> wakeandlake@gmail.com</p>
+            
+        </div>
+
+        <a href="mailto:wakeandlake@gmail.com" class="contact-button">
+            Get in Touch
+        </a>
+    </div>
+</section>
+
+
+<section class="newsletter">
+    <div class="newsletter-content">
+        <p class="eyebrow">A LITTLE NOTE FROM US</p>
+
+        <h2>Stay a little <em>longer.</em></h2>
+
+        <p>
+            Get updates about our seasonal menu,
+            special treats and little moments at Café Time.
+        </p>
+
+        <form class="newsletter-form">
+            <input
+                type="email"
+                placeholder="Enter your email address"
+                required
+            >
+            <button type="submit">Subscribe →</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+<footer>
+    <div class="footer-content">
+
+        <div class="footer-main">
+            <h2>Wake & Lake</h2>
+            <p>Find your moment of calm.</p>
+
+            <div class="social-links">
+    <a href="https://www.instagram.com/"
+       target="_blank"
+       aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="https://www.facebook.com/"
+       target="_blank"
+       aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+    </a>
+</div>
+        </div>
+
+        
+
+        <div class="footer-column">
+            <h3>Opening Hours</h3>
+            <p>Monday – Friday</p>
+            <p>9:00 AM – 8:00 PM</p>
+            <p>Saturday – Sunday</p>
+            <p>8:00 AM – 9:00 PM</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Get in Touch</h3>
+            <a href="#contact">Contact Us</a>
+            <a href="#reservation">Make a Reservation</a>
+        </div>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Wake & Lake. All Rights Reserved.
+    </p>
+</footer>
+
+
+    </main>
+
+    <button id="backToTop" title="Back to Top">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
