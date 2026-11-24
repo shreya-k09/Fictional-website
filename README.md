@@ -15,13 +15,13 @@ Wake & Lake is a front-end website project built with HTML, CSS, and JavaScript.
 ## ✨ Features
 
 - Responsive design for desktops, tablets, and phones
-- Mobile-friendly navigation menu with smooth section links
+- Mobile-friendly navigation menu with links to each section
 - Attractive homepage with a hero section
 - "Our Story" section about the café
 - Food and beverage menu with category filters (All, Coffee, Cold Drinks, Desserts, Bakery) and sample prices in BDT
 - Photo gallery showing the café atmosphere
 - Sample customer reviews section
-- Table reservation form (name, email, date, time, number of guests)
+-Reservation form (front-end only) with name, email, date, time, number of guests
 - Contact information section
 - Newsletter subscription section
 - Opening hours
@@ -71,7 +71,7 @@ This website is hosted using **GitHub Pages**. Changes pushed to the main branch
 
 ## 🖼️ Credits
 
-Some images are from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/). All rights belong to their respective photographers.
+All images are from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/). All rights belong to their respective photographers.
 
 ## 👩‍💻 Author
 
