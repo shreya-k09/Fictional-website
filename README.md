@@ -1,4 +1,4 @@
-# ☕ Wake & Lake – Lakeside Café Website
+# ☕ Wake & Lake – Fictional Lakeside Café Website
 
 Welcome to **Wake & Lake**, a responsive website for a peaceful lakeside café. It is designed to give visitors a calm, simple and pleasant browsing experience.
 
