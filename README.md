@@ -6,7 +6,7 @@ Welcome to **Wake & Lake**, a responsive website for a peaceful lakeside café. 
 
 ## 🌐 Live Website
 
-👉 [Visit Wake & Lake](https://shreya-k09.github.io/A-cafe-website/)
+👉 [Visit Wake & Lake](shreya-k09.github.io/Fictional-website/)
 
 ## 📌 About the Project
 
